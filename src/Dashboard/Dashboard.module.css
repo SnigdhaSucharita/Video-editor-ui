@@ -1,0 +1,102 @@
+.DashboardContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.AsideContainer {
+    width: 15%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.Logo {
+    text-align: center;
+    color: #0056b3;
+    font-size: 44px;
+    font-weight: 600;
+    padding: 5%;
+}
+
+.ButtonContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.AsideButton {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.AsideButton:hover {
+    background-color: #0056b3;
+}
+
+.MainContainer {
+    width: 75%;
+    padding: 20px;
+}
+
+.Header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.SearchBar {
+   width: 60vw;
+   padding: 20px;
+   border-radius: 30px;
+   border: 1px solid #ccc;
+   font-size: 20px;
+}
+
+.ProfileIcon {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(134, 127, 127);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 20px;
+    top: -12px;
+    
+}
+
+.ButtonRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+
+.MainButton {
+    margin-right: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.MainButton:hover {
+    background-color: #0056b3;
+}
+
+.MainButton:last-child {
+    margin-right: 0;
+}
+
+.VideoCardRow {
+    display: flex;
+    justify-content: space-between;
+}
